@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "games": [
+    {"id":"ci_loto_bonheur","title":"Loto Bonheur 5/90","countryCode":"CI","countryName":"Côte d’Ivoire","mainCount":5,"mainMin":1,"mainMax":90,"enabled":true},
+    {"id":"bj_loto_590","title":"LNB Loto 5/90","countryCode":"BJ","countryName":"Bénin","mainCount":5,"mainMin":1,"mainMax":90,"enabled":true},
+    {"id":"ne_loto_balsa","title":"Loto Balsa 5/90","countryCode":"NE","countryName":"Niger","mainCount":5,"mainMin":1,"mainMax":90,"enabled":true},
+    {"id":"tg_loto_590","title":"LONATO Loto 5/90","countryCode":"TG","countryName":"Togo","mainCount":5,"mainMin":1,"mainMax":90,"enabled":true}
+  ]
+}
