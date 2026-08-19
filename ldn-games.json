@@ -1,42 +1,420 @@
 {
-  "version": 2,
+  "version": 3,
   "updatedAt": "2026-08-20",
+  "note": "Remote LDN catalogue. Unknown fields are ignored by the Android parser. Keep filename ldn-games.json on GitHub Pages.",
   "games": [
-    {"id":"ci_loto_bonheur","title":"Loto Bonheur 5/90","countryCode":"CI","countryName":"Côte d’Ivoire","mainCount":5,"mainMin":1,"mainMax":90,"enabled":true},
-
-    {"id":"bj_loto_590","title":"LNB Loto 5/90","countryCode":"BJ","countryName":"Bénin","mainCount":5,"mainMin":1,"mainMax":90,"enabled":true},
-    {"id":"bj_loto_star","title":"Loto Star 5/90","countryCode":"BJ","countryName":"Bénin","mainCount":5,"mainMin":1,"mainMax":90,"enabled":true},
-    {"id":"bj_loto_fortune","title":"Loto Fortune 5/90","countryCode":"BJ","countryName":"Bénin","mainCount":5,"mainMin":1,"mainMax":90,"enabled":true},
-    {"id":"bj_loto_digital","title":"Loto 5/90 Digital","countryCode":"BJ","countryName":"Bénin","mainCount":5,"mainMin":1,"mainMax":90,"enabled":true},
-
-    {"id":"ne_loto_balsa","title":"Loto Balsa 5/90","countryCode":"NE","countryName":"Niger","mainCount":5,"mainMin":1,"mainMax":90,"enabled":true},
-
-    {"id":"tg_loto_matinal","title":"Loto Matinal 5/90","countryCode":"TG","countryName":"Togo","mainCount":5,"mainMin":1,"mainMax":90,"enabled":true},
-    {"id":"tg_lotto_diamant","title":"Lotto Diamant 5/90","countryCode":"TG","countryName":"Togo","mainCount":5,"mainMin":1,"mainMax":90,"enabled":true},
-    {"id":"tg_loto_gold","title":"Loto Gold 5/90","countryCode":"TG","countryName":"Togo","mainCount":5,"mainMin":1,"mainMax":90,"enabled":true},
-    {"id":"tg_loto_cash","title":"Loto Cash 5/90","countryCode":"TG","countryName":"Togo","mainCount":5,"mainMin":1,"mainMax":90,"enabled":true},
-    {"id":"tg_loto_boom","title":"Loto Boom 5/90","countryCode":"TG","countryName":"Togo","mainCount":5,"mainMin":1,"mainMax":90,"enabled":true},
-    {"id":"tg_loto_benz","title":"Loto Benz 5/90","countryCode":"TG","countryName":"Togo","mainCount":5,"mainMin":1,"mainMax":90,"enabled":true},
-    {"id":"tg_loto_prestige","title":"Loto Prestige 5/90","countryCode":"TG","countryName":"Togo","mainCount":5,"mainMin":1,"mainMax":90,"enabled":true},
-    {"id":"tg_loto_million","title":"Loto Million 5/90","countryCode":"TG","countryName":"Togo","mainCount":5,"mainMin":1,"mainMax":90,"enabled":true},
-
-    {"id":"gh_monday_special","title":"Monday Special 5/90","countryCode":"GH","countryName":"Ghana","mainCount":5,"mainMin":1,"mainMax":90,"enabled":true},
-    {"id":"gh_lucky_tuesday","title":"Lucky Tuesday 5/90","countryCode":"GH","countryName":"Ghana","mainCount":5,"mainMin":1,"mainMax":90,"enabled":true},
-    {"id":"gh_midweek","title":"Mid Week 5/90","countryCode":"GH","countryName":"Ghana","mainCount":5,"mainMin":1,"mainMax":90,"enabled":true},
-    {"id":"gh_fortune_thursday","title":"Fortune Thursday 5/90","countryCode":"GH","countryName":"Ghana","mainCount":5,"mainMin":1,"mainMax":90,"enabled":true},
-    {"id":"gh_friday_bonanza","title":"Friday Bonanza 5/90","countryCode":"GH","countryName":"Ghana","mainCount":5,"mainMin":1,"mainMax":90,"enabled":true},
-    {"id":"gh_national_weekly","title":"National Weekly Lotto 5/90","countryCode":"GH","countryName":"Ghana","mainCount":5,"mainMin":1,"mainMax":90,"enabled":true},
-    {"id":"gh_sunday_aseda","title":"Sunday Aseda 5/90","countryCode":"GH","countryName":"Ghana","mainCount":5,"mainMin":1,"mainMax":90,"enabled":true},
-
-    {"id":"sn_yakaar_590","title":"Loto 5/90 Yakaar","countryCode":"SN","countryName":"Sénégal","mainCount":5,"mainMin":1,"mainMax":90,"enabled":true},
-    {"id":"sn_senloto_jackpot","title":"Senloto Jackpot 4/56","countryCode":"SN","countryName":"Sénégal","mainCount":4,"mainMin":1,"mainMax":56,"enabled":true},
-
-    {"id":"bf_faso_loto_590","title":"Faso Loto 5/90","countryCode":"BF","countryName":"Burkina Faso","mainCount":5,"mainMin":1,"mainMax":90,"enabled":true},
-
-    {"id":"za_lotto","title":"SA Lotto 6/58","countryCode":"ZA","countryName":"South Africa","mainCount":6,"mainMin":1,"mainMax":58,"enabled":true},
-    {"id":"za_lotto_plus1","title":"SA Lotto Plus 1 6/58","countryCode":"ZA","countryName":"South Africa","mainCount":6,"mainMin":1,"mainMax":58,"enabled":true},
-    {"id":"za_lotto_plus2","title":"SA Lotto Plus 2 6/58","countryCode":"ZA","countryName":"South Africa","mainCount":6,"mainMin":1,"mainMax":58,"enabled":true},
-    {"id":"za_powerball","title":"SA PowerBall 5/50 + 1/20","countryCode":"ZA","countryName":"South Africa","mainCount":5,"mainMin":1,"mainMax":50,"bonusCount":1,"bonusMin":1,"bonusMax":20,"enabled":true},
-    {"id":"za_daily_lotto","title":"SA Daily Lotto 5/36","countryCode":"ZA","countryName":"South Africa","mainCount":5,"mainMin":1,"mainMax":36,"enabled":true}
+    {
+      "id": "ci_loto_bonheur",
+      "title": "Loto Bonheur 5/90",
+      "countryCode": "CI",
+      "countryName": "Côte d’Ivoire",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "bj_loto_590",
+      "title": "LNB Loto 5/90",
+      "countryCode": "BJ",
+      "countryName": "Bénin",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "bj_loto_star",
+      "title": "Loto Star 5/90",
+      "countryCode": "BJ",
+      "countryName": "Bénin",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "bj_loto_fortune",
+      "title": "Loto Fortune 5/90",
+      "countryCode": "BJ",
+      "countryName": "Bénin",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "bj_loto_digital",
+      "title": "Loto 5/90 Digital",
+      "countryCode": "BJ",
+      "countryName": "Bénin",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "ne_loto_balsa",
+      "title": "Loto Balsa 5/90",
+      "countryCode": "NE",
+      "countryName": "Niger",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "tg_loto_matinal",
+      "title": "Loto Matinal 5/90",
+      "countryCode": "TG",
+      "countryName": "Togo",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "tg_lotto_diamant",
+      "title": "Lotto Diamant 5/90",
+      "countryCode": "TG",
+      "countryName": "Togo",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "tg_loto_gold",
+      "title": "Loto Gold 5/90",
+      "countryCode": "TG",
+      "countryName": "Togo",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "tg_loto_cash",
+      "title": "Loto Cash 5/90",
+      "countryCode": "TG",
+      "countryName": "Togo",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "tg_loto_boom",
+      "title": "Loto Boom 5/90",
+      "countryCode": "TG",
+      "countryName": "Togo",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "tg_loto_benz",
+      "title": "Loto Benz 5/90",
+      "countryCode": "TG",
+      "countryName": "Togo",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "tg_loto_prestige",
+      "title": "Loto Prestige 5/90",
+      "countryCode": "TG",
+      "countryName": "Togo",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "tg_loto_million",
+      "title": "Loto Million 5/90",
+      "countryCode": "TG",
+      "countryName": "Togo",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "tg_loto_super",
+      "title": "Loto Super 5/90",
+      "countryCode": "TG",
+      "countryName": "Togo",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "gh_monday_special",
+      "title": "Monday Special 5/90",
+      "countryCode": "GH",
+      "countryName": "Ghana",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "gh_lucky_tuesday",
+      "title": "Lucky Tuesday 5/90",
+      "countryCode": "GH",
+      "countryName": "Ghana",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "gh_midweek",
+      "title": "Mid Week 5/90",
+      "countryCode": "GH",
+      "countryName": "Ghana",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "gh_fortune_thursday",
+      "title": "Fortune Thursday 5/90",
+      "countryCode": "GH",
+      "countryName": "Ghana",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "gh_friday_bonanza",
+      "title": "Friday Bonanza 5/90",
+      "countryCode": "GH",
+      "countryName": "Ghana",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "gh_national_weekly",
+      "title": "National Weekly Lotto 5/90",
+      "countryCode": "GH",
+      "countryName": "Ghana",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "gh_sunday_aseda",
+      "title": "Sunday Aseda 5/90",
+      "countryCode": "GH",
+      "countryName": "Ghana",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "gh_daywa_539",
+      "title": "Daywa 5/39 Direct",
+      "countryCode": "GH",
+      "countryName": "Ghana",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 39,
+      "enabled": true
+    },
+    {
+      "id": "sn_yakaar_590",
+      "title": "Loto 5/90 Yakaar",
+      "countryCode": "SN",
+      "countryName": "Sénégal",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "sn_senloto_jackpot",
+      "title": "Senloto Jackpot 4/56",
+      "countryCode": "SN",
+      "countryName": "Sénégal",
+      "mainCount": 4,
+      "mainMin": 1,
+      "mainMax": 56,
+      "enabled": true
+    },
+    {
+      "id": "bf_faso_loto_590",
+      "title": "Faso Loto 5/90",
+      "countryCode": "BF",
+      "countryName": "Burkina Faso",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "za_lotto",
+      "title": "SA Lotto 6/58",
+      "countryCode": "ZA",
+      "countryName": "South Africa",
+      "mainCount": 6,
+      "mainMin": 1,
+      "mainMax": 58,
+      "enabled": true
+    },
+    {
+      "id": "za_lotto_plus1",
+      "title": "SA Lotto Plus 1 6/58",
+      "countryCode": "ZA",
+      "countryName": "South Africa",
+      "mainCount": 6,
+      "mainMin": 1,
+      "mainMax": 58,
+      "enabled": true
+    },
+    {
+      "id": "za_lotto_plus2",
+      "title": "SA Lotto Plus 2 6/58",
+      "countryCode": "ZA",
+      "countryName": "South Africa",
+      "mainCount": 6,
+      "mainMin": 1,
+      "mainMax": 58,
+      "enabled": true
+    },
+    {
+      "id": "za_powerball",
+      "title": "SA PowerBall 5/50 + 1/20",
+      "countryCode": "ZA",
+      "countryName": "South Africa",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 50,
+      "bonusCount": 1,
+      "bonusMin": 1,
+      "bonusMax": 20,
+      "enabled": true
+    },
+    {
+      "id": "za_daily_lotto",
+      "title": "SA Daily Lotto 5/36",
+      "countryCode": "ZA",
+      "countryName": "South Africa",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 36,
+      "enabled": true
+    },
+    {
+      "id": "ng_diamond",
+      "title": "Baba Ijebu Diamond 5/90",
+      "countryCode": "NG",
+      "countryName": "Nigeria",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "ng_peoples",
+      "title": "Baba Ijebu Peoples 5/90",
+      "countryCode": "NG",
+      "countryName": "Nigeria",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "ng_bingo",
+      "title": "Baba Ijebu Bingo 5/90",
+      "countryCode": "NG",
+      "countryName": "Nigeria",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "ng_gold",
+      "title": "Baba Ijebu Gold 5/90",
+      "countryCode": "NG",
+      "countryName": "Nigeria",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "ng_jackpot",
+      "title": "Baba Ijebu Jackpot 5/90",
+      "countryCode": "NG",
+      "countryName": "Nigeria",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "ng_lucky",
+      "title": "Baba Ijebu Lucky 5/90",
+      "countryCode": "NG",
+      "countryName": "Nigeria",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "ng_club_master",
+      "title": "Baba Ijebu Club Master 5/90",
+      "countryCode": "NG",
+      "countryName": "Nigeria",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "ng_super",
+      "title": "Baba Ijebu Super 5/90",
+      "countryCode": "NG",
+      "countryName": "Nigeria",
+      "mainCount": 5,
+      "mainMin": 1,
+      "mainMax": 90,
+      "enabled": true
+    },
+    {
+      "id": "ke_pick6",
+      "title": "Kenya Pick 6 (0-39)",
+      "countryCode": "KE",
+      "countryName": "Kenya",
+      "mainCount": 6,
+      "mainMin": 0,
+      "mainMax": 39,
+      "enabled": true
+    },
+    {
+      "id": "ma_loto",
+      "title": "Maroc LOTO 6/49",
+      "countryCode": "MA",
+      "countryName": "Maroc",
+      "mainCount": 6,
+      "mainMin": 1,
+      "mainMax": 49,
+      "enabled": true
+    }
   ]
 }
