@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "updatedAt": "2026-08-20",
   "note": "Remote LDN catalogue. Unknown fields are ignored by the Android parser. Keep filename ldn-games.json on GitHub Pages.",
   "games": [
@@ -414,6 +414,21 @@
       "mainCount": 6,
       "mainMin": 1,
       "mainMax": 49,
+      "enabled": true
+    }
+  ],
+  "themes": [
+    {
+      "countryCode": "GH",
+      "name": "Ghana",
+      "background": "#043B26",
+      "surface": "#075D3B",
+      "primary": "#F5C518",
+      "secondary": "#CE1126",
+      "text": "#FFD76A",
+      "ball": "#F7F4E8",
+      "number": "#043B26",
+      "headerImageUrl": "https://raky1977.github.io/skins/ghana.png",
       "enabled": true
     }
   ]
