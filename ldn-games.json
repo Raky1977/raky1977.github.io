@@ -1,6 +1,6 @@
 {
-  "version": 4,
-  "updatedAt": "2026-08-20",
+  "version": 5,
+  "updatedAt": "2026-08-22",
   "note": "Remote LDN catalogue. Unknown fields are ignored by the Android parser. Keep filename ldn-games.json on GitHub Pages.",
   "games": [
     {
@@ -429,6 +429,19 @@
       "ball": "#F7F4E8",
       "number": "#043B26",
       "headerImageUrl": "https://raky1977.github.io/skins/ghana.webp",
+      "enabled": true
+    },
+    {
+      "countryCode": "SN",
+      "name": "Sénégal",
+      "background": "#0A3D2E",
+      "surface": "#0F684E",
+      "primary": "#FFD700",
+      "secondary": "#E31B23",
+      "text": "#FFF5B7",
+      "ball": "#FFFDF5",
+      "number": "#0A3D2E",
+      "headerImageUrl": "https://raky1977.github.io/skins/senegal.webp",
       "enabled": true
     }
   ]
