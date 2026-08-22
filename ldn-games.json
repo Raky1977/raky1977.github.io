@@ -1,7 +1,7 @@
 {
   "version": 5,
   "updatedAt": "2026-08-22",
-  "note": "Remote LDN catalogue. Unknown fields are ignored by the Android parser. Keep filename ldn-games.json on GitHub Pages.",
+  "note": "Remote LDN catalogue + country skins. headerWidthDp can be changed on GitHub without a new Android release.",
   "games": [
     {
       "id": "ci_loto_bonheur",
@@ -429,19 +429,21 @@
       "ball": "#F7F4E8",
       "number": "#043B26",
       "headerImageUrl": "https://raky1977.github.io/skins/ghana.webp",
-      "enabled": true
+      "enabled": true,
+      "headerWidthDp": 315
     },
     {
-      "countryCode": "SN",
-      "name": "Sénégal",
-      "background": "#0A3D2E",
-      "surface": "#0F684E",
-      "primary": "#FFD700",
-      "secondary": "#E31B23",
-      "text": "#FFF5B7",
+      "countryCode": "CI",
+      "name": "Côte d’Ivoire",
+      "background": "#053B2C",
+      "surface": "#087A51",
+      "primary": "#F4C430",
+      "secondary": "#F77F00",
+      "text": "#FFF4D6",
       "ball": "#FFFDF5",
-      "number": "#0A3D2E",
-      "headerImageUrl": "https://raky1977.github.io/skins/senegal.webp",
+      "number": "#053B2C",
+      "headerImageUrl": "https://raky1977.github.io/skins/cote_ivoire.webp",
+      "headerWidthDp": 325,
       "enabled": true
     }
   ]
